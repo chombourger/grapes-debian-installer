@@ -1,4 +1,4 @@
-debian-installer (201611XX) UNRELEASED; urgency=medium
+debian-installer (20161032) UNRELEASED; urgency=medium
 
   [ Cyril Brulebois ]
   * Bump Linux kernel version from 4.7.0-1 to 4.8.0-1.
@@ -17,7 +17,11 @@ debian-installer (201611XX) UNRELEASED; urgency=medium
   * Disable u-boot images for OpenRD because they've been removed
     (see #837629).
 
- -- Cyril Brulebois <kibi@debian.org>  Sun, 06 Nov 2016 05:18:02 +0100
+  [ Philip Hands ]
+  * force inclusion of bootstrap-base for testing
+    NOT FOR RELEASE
+
+ -- Philip Hands <phil@hands.com>  Thu, 17 Nov 2016 23:45:02 +0100
 
 debian-installer (20161031) unstable; urgency=medium
 

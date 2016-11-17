@@ -23,3 +23,6 @@ screen-udeb
 
 libkmod2-udeb [linux]
 kldutils-udeb [kfreebsd]
+
+# force testing of this -- not for release:
+bootstrap-base
